@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyproject/
+.spyderproject
+.spyderworkspace
+
+# OS
+.DS_Store
+
+# Not part of this repo (data pulls, cached data, run outputs, logs)
+equity_momentum_trading/
+pairs_trading/results/
+pairs_trading/crypto_raw/
+pairs_trading/console_log.txt
+momentum_trading/results/
+momentum_trading/console_log.txt
+clean_equity_data.py
+pull_crypto_cdd.py
+pull_sp500_wrds.py
